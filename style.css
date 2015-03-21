@@ -1,0 +1,175 @@
+/*
+Theme Name:     nifl
+Description:    Child theme for the TwentyFifteen theme for WordPress
+Author:         Demetris
+Author URI:     http:wp.yat-net.com
+Template:       twentyfifteen
+Version:        0.1.0
+*/
+@import url("../twentyfifteen/style.css");
+/* line 24, sass/style.scss */
+body {
+  color: #5a5a5a;
+}
+/* line 26, sass/style.scss */
+body:before {
+  background: url(images/side-bg.png);
+}
+
+/* line 29, sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #ff0078;
+}
+
+/* line 30, sass/style.scss */
+.widget-title,
+.entry-title {
+  color: #ff0078;
+}
+
+/* line 33, sass/style.scss */
+a {
+  color: #ff51a3;
+}
+/* line 34, sass/style.scss */
+a:hover {
+  color: #ff8ec3;
+}
+
+/* line 37, sass/style.scss */
+.prev {
+  background: url(images/prevbt.png) no-repeat #ffb5cb;
+  text-indent: -10000px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 41, sass/style.scss */
+.next {
+  background: url(images/nextbt.png) no-repeat;
+  text-indent: -10000px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/**
+ * 15.1 Mobile Large 620px
+ */
+@media screen and (min-width: 38.75em) {
+  /* line 53, sass/style.scss */
+  #primary .post {
+    border-image: url("images/race-base.png") 45 45 round;
+    border-style: solid;
+    border-width: 45px;
+  }
+  /* line 58, sass/style.scss */
+  #primary .hentry {
+    background: #fffeef;
+    box-shadow: none;
+  }
+  /* line 63, sass/style.scss */
+  #primary .prev,
+  #primary .next {
+    background-color: #ffb5cb;
+  }
+  /* line 66, sass/style.scss */
+  #primary .prev:hover,
+  #primary .next:hover {
+    background-color: #ffd4e1;
+  }
+
+  /* line 70, sass/style.scss */
+  .post-navigation {
+    box-shadow: none;
+  }
+
+  /* line 74, sass/style.scss */
+  .nav-previous {
+    margin-bottom: 0;
+    border-image: url("images/race-base.png") 45 45 round;
+    border-style: solid;
+    border-width: 45px;
+    border-bottom: 0;
+  }
+  /* line 80, sass/style.scss */
+  .nav-previous a {
+    border-bottom: 1px solid #e9e9e9;
+  }
+
+  /* line 85, sass/style.scss */
+  .nav-next {
+    margin-top: 0;
+    border-image: url("images/race-base.png") 45 45 round;
+    border-style: solid;
+    border-width: 45px;
+    border-top: none;
+  }
+
+  /* line 94, sass/style.scss */
+  .site-info {
+    background: #fff;
+  }
+
+  /* line 98, sass/style.scss */
+  .site-footer {
+    border-image: url("images/race-base.png") 45 45 round;
+    border-style: solid;
+    border-width: 45px;
+    background: #fff;
+    box-shadow: none;
+  }
+
+  /*  sidebar */
+  /* line 108, sass/style.scss */
+  .sidebar {
+    background: url(images/side_top.png) no-repeat;
+    content: "";
+    display: block;
+  }
+  /* line 110, sass/style.scss */
+  .sidebar .site-title {
+    padding-top: 35px;
+  }
+}
+/**
+ * 15.1 Mobile Large 620px
+ */
+/**
+ * 15.2 Tablet Small 740px
+ */
+@media screen and (min-width: 46.25em) {
+  /* line 129, sass/style.scss */
+  .sidebar .site-header {
+    background: url(images/side-bg.png);
+  }
+
+  /* line 134, sass/style.scss */
+  .site-footer .site-info {
+    padding: 40px;
+  }
+}
+/**
+ * 15.3 Tablet Large 880px
+ */
+/**
+ * 15.4 Desktop Small 955px
+ */
+@media screen and (min-width: 59.6875em) {
+  /* line 156, sass/style.scss */
+  #primary .prev,
+  #primary .next {
+    background-size: cover;
+  }
+}
+/**
+ * 15.5 Desktop Medium 1100px
+ */
+/**
+ * 15.6 Desktop Large 1240px
+ */
+/**
+ * 15.7 Desktop X-Large 1403px
+ */
+/**
+ * 16.0 Print
+ */
