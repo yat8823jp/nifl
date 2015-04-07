@@ -1,7 +1,7 @@
 ### License
 
 Nifl is WordPress theme.
-This theme is a small theme of TwentyFifteen.
+This theme is a child theme of TwentyFifteen.
 Nifl theme is distributed under the terms of the GNU GPL, Version 2 (or later)
 
 This program is free software:
@@ -13,6 +13,9 @@ Nifl Copyright 2015 YAT
 This is a theme that has the image of a lovely woman.
 
 ### Changelog
+
+v1.1
+* remove customizer colors
 
 v1.0
 * Initial Release

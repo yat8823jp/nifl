@@ -1,13 +1,14 @@
 /*
 Theme Name:     nifl
+Theme URI:
 Description:    Child theme for the TwentyFifteen theme for WordPress
-Author:         Demetris
+Author:         YAT
 Author URI:     http:wp.yat-net.com
 Template:       twentyfifteen
-Version:        0.1.0
+Version:        1.1
+Tags:          Gurley
+Text Domain:    nifl
 */
-
-@import url('../twentyfifteen/style.css');
 
 @mixin beforeafter{
 	content: "";
