@@ -14,6 +14,9 @@ This is a theme that has the image of a lovely woman.
 
 ### Changelog
 
+v1.2
+* tag modification and add
+
 v1.1
 * remove customizer colors
 
