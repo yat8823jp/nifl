@@ -14,6 +14,9 @@ This is a theme that has the image of a lovely woman.
 
 ### Changelog
 
+v1.4
+* Corresponding to WordPress version 4.5
+
 v1.3
 * style bugfix
 
