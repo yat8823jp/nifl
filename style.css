@@ -5,114 +5,103 @@ Description:    Child theme for the TwentyFifteen theme for WordPress
 Author:         YAT
 Author URI:     http://wp.yat-net.com
 Template:       twentyfifteen
-Version:        1.3
+Version:        1.4
+Tags:          pink, two-columns, light, left-sidebar
+Text Domain:    nifl
+*/
+/*
+Theme Name:     nifl
+Theme URI:
+Description:    Child theme for the TwentyFifteen theme for WordPress
+Author:         YAT
+Author URI:     http://wp.yat-net.com
+Template:       twentyfifteen
+Version:        1.4
 Tags:          pink, two-columns, light, left-sidebar
 Text Domain:    nifl
 */
 body {
-  color: #5a5a5a;
-}
-body:before {
-  background: url(images/side-bg.png);
-}
+  color: #5a5a5a; }
+  body:before {
+    background: url(images/side-bg.png); }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ff0078;
-}
+  color: #ff0078; }
 
 .widget-title,
 .entry-title {
-  color: #ff0078;
-}
+  color: #ff0078; }
 
 a {
-  color: #ff51a3;
-}
-a:hover {
-  color: #ff8ec3;
-}
+  color: #ff51a3; }
+  a:hover {
+    color: #ff8ec3; }
 
 .prev {
   background: url(images/prevbt.png) no-repeat #ffb5cb;
   text-indent: -10000px;
   white-space: nowrap;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .next {
   background: url(images/nextbt.png) no-repeat;
   text-indent: -10000px;
   white-space: nowrap;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /**
  * 15.1 Mobile Large 620px
  */
 @media screen and (min-width: 38.75em) {
   #primary .post {
-    border-image: url("images/race-base.png") 45 45 round;
+    -o-border-image: url("images/race-base.png") 45 45 round;
+       border-image: url("images/race-base.png") 45 45 round;
     border-style: solid;
-    border-width: 45px;
-  }
+    border-width: 45px; }
   #primary .hentry {
     background: #fffeef;
-    box-shadow: none;
-  }
+    box-shadow: none; }
   #primary .prev,
   #primary .next {
-    background-color: #ffb5cb;
-  }
-  #primary .prev:hover,
-  #primary .next:hover {
-    background-color: #ffd4e1;
-  }
-
+    background-color: #ffb5cb; }
+    #primary .prev:hover,
+    #primary .next:hover {
+      background-color: #ffd4e1; }
   .post-navigation {
-    box-shadow: none;
-  }
-
+    box-shadow: none; }
   .nav-previous {
     margin-bottom: 0;
-    border-image: url("images/race-base.png") 45 45 round;
+    -o-border-image: url("images/race-base.png") 45 45 round;
+       border-image: url("images/race-base.png") 45 45 round;
     border-style: solid;
     border-width: 45px;
-    border-bottom: 0;
-  }
-  .nav-previous a {
-    border-bottom: 1px solid #e9e9e9;
-  }
-
+    border-bottom: 0; }
+    .nav-previous a {
+      border-bottom: 1px solid #e9e9e9; }
   .nav-next {
     margin-top: 0;
-    border-image: url("images/race-base.png") 45 45 round;
+    -o-border-image: url("images/race-base.png") 45 45 round;
+       border-image: url("images/race-base.png") 45 45 round;
     border-style: solid;
     border-width: 45px;
-    border-top: none;
-  }
-
+    border-top: none; }
   .site-info {
-    background: #fff;
-  }
-
+    background: #fff; }
   .site-footer {
-    border-image: url("images/race-base.png") 45 45 round;
+    -o-border-image: url("images/race-base.png") 45 45 round;
+       border-image: url("images/race-base.png") 45 45 round;
     border-style: solid;
     border-width: 45px;
     background: #fff;
-    box-shadow: none;
-  }
-
+    box-shadow: none; }
   /*  sidebar */
   .sidebar {
     background: url(images/side_top.png) no-repeat;
     content: "";
-    display: block;
-  }
-  .sidebar .site-title {
-    padding-top: 35px;
-  }
-}
+    display: block; }
+    .sidebar .site-title {
+      padding-top: 35px; } }
+
 /**
  * 15.1 Mobile Large 620px
  */
@@ -121,13 +110,10 @@ a:hover {
  */
 @media screen and (min-width: 46.25em) {
   .sidebar .site-header {
-    background: url(images/side-bg.png);
-  }
-
+    background: url(images/side-bg.png); }
   .site-footer .site-info {
-    padding: 40px;
-  }
-}
+    padding: 40px; } }
+
 /**
  * 15.3 Tablet Large 880px
  */
@@ -137,9 +123,8 @@ a:hover {
 @media screen and (min-width: 59.6875em) {
   #primary .prev,
   #primary .next {
-    background-size: cover;
-  }
-}
+    background-size: cover; } }
+
 /**
  * 15.5 Desktop Medium 1100px
  */
@@ -152,3 +137,5 @@ a:hover {
 /**
  * 16.0 Print
  */
+
+/*# sourceMappingURL=style.css.map */

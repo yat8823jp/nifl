@@ -26,13 +26,13 @@ var gulp = require( 'gulp' ),
  * Sass
  */
 gulp.task( 'scss', function() {
-	gulp.src( paths.rootDir + '/scss/**/*.scss' )
+	gulp.src( paths.rootDir + '/sass/**/*.scss' )
 		.pipe( sourcemaps.init() )
 		.pipe( plumber({
 			errorHandler: notify.onError( 'Error: <%= error.message %>' )
 		}) )
 		.pipe( scss() )
-		.pipe( pleeease() )
+		.pipe( pleeease( {minifier: false} ) )
 		.pipe( sourcemaps.write( './' ) )
 		.pipe( gulp.dest( paths.rootDir ) );
 });

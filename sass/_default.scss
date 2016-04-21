@@ -1,0 +1,195 @@
+/*
+Theme Name:     nifl
+Theme URI:
+Description:    Child theme for the TwentyFifteen theme for WordPress
+Author:         YAT
+Author URI:     http://wp.yat-net.com
+Template:       twentyfifteen
+Version:        1.4
+Tags:          pink, two-columns, light, left-sidebar
+Text Domain:    nifl
+*/
+
+@mixin beforeafter{
+	content: "";
+	display: block;
+}
+
+@mixin elmhidden{
+	text-indent: -10000px;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+body{
+	color: #5a5a5a;
+	&:before{ background: url(images/side-bg.png); }
+}
+
+h1,h2,h3,h4,h5,h6{ color: #ff0078; }
+.widget-title,
+.entry-title{ color: #ff0078; }
+
+a{ color: #ff51a3;
+	&:hover{ color: #ff8ec3; }
+}
+
+.prev{
+	background:url(images/prevbt.png) no-repeat #ffb5cb;
+	@include elmhidden;
+}
+.next{
+	background:url(images/nextbt.png) no-repeat;
+	@include elmhidden;
+}
+
+
+/**
+ * 15.1 Mobile Large 620px
+ */
+
+@media screen and (min-width: 38.75em) {
+	#primary{
+		.post{
+			border-image: url("images/race-base.png") 45 45 round;
+			border-style: solid;
+			border-width: 45px;
+		}
+		.hentry{
+			background: #fffeef;
+			box-shadow: none;
+		}//.post
+
+		.prev,
+		.next{
+			background-color:#ffb5cb;
+			&:hover{ background-color: #ffd4e1; }
+		}//.prev,.next
+	}//#primary
+
+	.post-navigation{
+		box-shadow: none;
+	}
+
+	.nav-previous{
+		margin-bottom: 0;
+		border-image: url("images/race-base.png") 45 45 round;
+		border-style: solid;
+		border-width: 45px;
+		border-bottom: 0;
+		a{
+			border-bottom: 1px solid #e9e9e9;
+		}
+	}
+
+	.nav-next{
+		margin-top: 0;
+		border-image: url("images/race-base.png") 45 45 round;
+		border-style: solid;
+		border-width: 45px;
+		border-top: none;
+
+	}
+
+	.site-info{
+		background: #fff;
+	}//.site-info
+
+	.site-footer{
+		border-image: url("images/race-base.png") 45 45 round;
+		border-style: solid;
+		border-width: 45px;
+		background: #fff;
+		box-shadow: none;
+	}
+
+	/*  sidebar */
+
+	.sidebar {
+		background: url(images/side_top.png) no-repeat; @include beforeafter;
+		.site-title{ padding-top: 35px; }
+	}
+
+}
+/**
+ * 15.1 Mobile Large 620px
+ */
+
+ @media screen and (min-width: 38.75em) {
+ }
+
+
+/**
+ * 15.2 Tablet Small 740px
+ */
+
+@media screen and (min-width: 46.25em) {
+
+	.sidebar {
+		.site-header{
+			background: url(images/side-bg.png);
+		}
+	}
+	.site-footer{
+		.site-info{
+			padding: 40px;
+		}
+	}
+}
+
+
+/**
+ * 15.3 Tablet Large 880px
+ */
+
+@media screen and (min-width: 55em) {
+
+}
+
+
+/**
+ * 15.4 Desktop Small 955px
+ */
+
+@media screen and (min-width: 59.6875em) {
+	#primary{
+		.prev,
+		.next{
+			background-size:cover;
+		}
+	}
+
+}
+
+
+/**
+ * 15.5 Desktop Medium 1100px
+ */
+
+@media screen and (min-width: 68.75em) {
+}
+
+
+/**
+ * 15.6 Desktop Large 1240px
+ */
+
+@media screen and (min-width: 77.5em) {
+}
+
+/**
+ * 15.7 Desktop X-Large 1403px
+ */
+
+@media screen and (min-width: 87.6875em) {
+}
+
+
+
+/**
+ * 16.0 Print
+ */
+
+@media print {
+}
